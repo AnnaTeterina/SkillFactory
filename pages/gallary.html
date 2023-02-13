@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Галерея</title>
+        <style>
+            h2 {
+                margin: 0;
+            }
+
+            .gallery {
+                box-shadow: 5px 5px 10px grey;
+                padding: 20px;
+                margin-bottom: 20px;
+                display: flex;
+            }
+
+            .gallery:nth-of-type(odd) {
+                flex-direction: row-reverse;
+            }
+
+            .gallery::nth-of-type(even) {
+                flex-direction: row;
+            }
+
+            .gallery > img {
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Галерея 1</h2>
+        <div class="gallery gallery-1">
+            <img src="../images/my_pic.jpg" alt="">
+            <img src="../images/my_pic__cropped.jpg" alt="">
+        </div>
+        <h2>Галерея 2</h2>
+        <div class="gallery gallery-2">
+            <img src="../images/my_pic.jpg" alt="">
+            <img src="../images/my_pic__cropped.jpg" alt="">
+        </div>
+        <h2>Галерея 3</h2>
+        <div class="gallery gallery-3">
+            <img src="../images/my_pic.jpg" alt="">
+            <img src="../images/my_pic__cropped.jpg" alt="">
+        </div>
+    </body>
+</html>

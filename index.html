@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--указывает браузеру, что нужна ширина области просмотра такая же, как и ширина экрана и устанавливает начальный масштаб страницы 100%-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" /> <!--управляет отображением страницы в браузерах IE-->
+        <!--<link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">-->
+        <title>Моя визитка</title>
+    </head>
+    <body>
+        
+        <header>
+            <a href="#">Главная</a>
+            <a href="#about">Обо мне</a>
+            <a href="#education">Образование</a>
+            <a href="#work">Опыт работы</a>
+            <a href="#hobby">Хобби</a>
+            <a href="#HowIBacameADeveloper">Как я становилась разработчиком</a>
+            <a href="#contacts">Контакты</a>
+        </header>
+        
+        <hr width="1000px">
+
+        <main>
+            
+            <div style="display: flex; align-items: center;">
+                
+                <img class="avatar" src="images/my_pic__cropped.jpg" alt="Моя фотография" width="auto" height="300px">
+                
+                <div style="margin-left: 40px;">
+                    <h1 >Анна Тетерина</h1>
+                    
+                    <h2 id="about">Обо мне</h2>
+                    <p>Меня зовут Анна. Я работаю <strong>администратором</strong> пункта выдачи заказов в книжном-интернет магазине "Лабиринт".</p>
+                    <p>Живу в городе Ивантеевка, Московская область.</p>
+                    <p>Люблю гулять, читать книги (моя любимая книга - "Голодные игры", написанная Сьюзен Коллинз) 
+                    и смотреть фильмы и сериалы (мои любимые фильмы - все фильмы Гарри Поттера, 
+                    а сериал - Игра престолов).</p>
+                    <p>Мечтаю стать Frontend-разработчиком, потому что это невероятно интересно, 
+                    и я очень люблю разрабатывать веб-приложения. 
+                    Поэтому от <em>этого</em> курса ожидаю получения всех недостающих знаний.</em></p>
+                </div>
+                
+            </div>
+            
+            <h2 id="education">Образование</h2>
+            <p>Я являюсь дипломированным специалистом с высшим техническим образованием.</p>
+            <p>Образовательные учереждения, которые я окончила:
+                <ul>
+                    <li>Школа №283 г. Москва</li>
+                    <li>Московский государственный университет технологий и управлений им. К.Г. Разумовского (Университетский колледж информационных технологий)</li>
+                    <li>Национальный исследовательский университет "Московский энергетический институт"</li>
+                </ul>
+            </p>
+            
+            <h2 id="work">Опыт работы</h2>
+            <table width="100%" style="border-collapse: collapse;">
+                <tr style="border-bottom: 1px solid black;">
+                    <td>Должность</td>
+                    <td>Компания</td>
+                    <td>Период работы</td>
+                </tr>
+                <tr>
+                    <td>Оператор сканировщик 2 уровня</td>
+                    <td>ООО "Электронный архив"</td>
+                    <td>21.09.2018 - 25.12.2018</td>
+                </tr>
+                <tr>
+                    <td>Администратор</td>
+                    <td>ООО "Лабиринт.РУ"</td>
+                    <td>03.02.2023 - наст. время</td>
+                </tr>
+            </table>
+            
+            <h2 id="hobby">Хобби</h2>
+            <ul>
+                <li>Чтение книг</li>
+                <li>Просмотр фильмов и сериалов</li>
+                <li>Рисование</li>
+                <li>Занятие спортом</li>
+                <li>Прогулки на свежем воздухе</li>
+                <li>Путешествия</li>
+                <li>Программирование</li>
+            </ul>
+            
+            <h2 id="HowIBacameADeveloper">Как я становилась разработчиком</h2>
+            <ul>
+                <li>2013 год - мама преложила мне стать программистом, и я начала изучать Pascal</li>
+                <li>2014 год - узнала, что такое HTML и попыталась создать первый сайт</li>
+                <li>2015 год - поступила в колледж информационных технологий</li>
+                <li>2016 год - узнала, что такое CSS и попытыалась разработать сайт на HTML и CSS</li>
+                <li>2019 год - разработала первый полноценный сайт на HTML, CSS, JS, PHP и Bootstrap, а также поступила в университет</li>
+                <li>2021 год - начала изучать JavaScript, но поняла, что без курсов полноценно освоить этот язык программирования не смогу</li>
+                <li>2023 год - наконец-то записалась на курс Frontend-разработчика в SkillFactory</li>
+            </ul>
+            
+            <h2 id="contacts">Контакты</h2>
+            <div style="display: flex; align-items: center;">
+                <img src="images/call_black_24dp.svg" alt="Иконка телефона" style="margin-right: 5px;">
+                <a href="tel:+79268258914">+7 (926) 825 89 14</a>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <img src="images/alternate_email_black_24dp.svg" alt="Иконка почты" style="margin-right: 5px;">
+                <a href="mailto:anna_leto@inbox.ru">anna_leto@inbox.ru</a>
+            </div>
+            
+            <p>Мои социальные сети: <br>
+                <a href="https://vk.com/anyateterina">ВКонтакте</a> | 
+                <a href="https://t.me/anyateterina">Telegram</a>
+            </p>
+
+        </main>
+        
+        <hr width="1000px">
+
+        <footer>
+            <span>&copy;&nbsp;Тетерина Анна</span>
+        </footer>
+ 
+    </body>
+</html>
